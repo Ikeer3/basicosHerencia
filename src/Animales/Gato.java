@@ -2,15 +2,15 @@ package Animales;
 
 public class Gato extends Animal {
 
-    private String raza;
+    private String color;
 
-    public Gato(String nombre, String raza) {
+    public Gato(String nombre, String color) {
         super(nombre);
-        this.raza = raza;
+        this.color = color;
     }
 
     @Override
     public String hacerSonido() {
-        return getNombre() + " de raza " + raza + " hace MIAU!!";
+        return getNombre() + " de color " + color + " hace MIAU!!";
     }
 }
