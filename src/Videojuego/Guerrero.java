@@ -1,14 +1,10 @@
 package Videojuego;
 
-import java.util.Random;
-
 public class Guerrero extends Personaje{
 
     public Guerrero(String nombre, int ataque) {
         super(nombre, ataque);
     }
-
-    Random random = new Random();
 
     @Override
     public int atacar() {
