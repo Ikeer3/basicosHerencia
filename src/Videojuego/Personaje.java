@@ -21,8 +21,4 @@ public class Personaje {
     public String getNombre() {
         return nombre;
     }
-
-    public int getAtaque() {
-        return ataque;
-    }
 }
