@@ -1,3 +1,5 @@
+package Animales;
+
 public class Animal {
 
     private String nombre;
