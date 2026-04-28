@@ -1,17 +1,21 @@
 package Videojuego;
 
+import java.util.Random;
+
 public class Guerrero extends Personaje{
 
     public Guerrero(String nombre, int ataque) {
         super(nombre, ataque);
     }
 
+    Random random = new Random();
+
     @Override
     public int atacar() {
-        int resultado = atacar();
-        if (Math.random() < 0.1) {
-            resultado = atacar() * 2;
+        if (random.nextInt(100) < 10) {
+            System.out.println(nombre + " ha hecho un ataque CRÍTICO!!");
+            return ataque * 2;
         }
-        return resultado;
+        return ataque;
     }
 }

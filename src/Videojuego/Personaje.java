@@ -2,8 +2,8 @@ package Videojuego;
 
 public class Personaje {
 
-    private String nombre;
-    private int ataque;
+    protected String nombre;
+    protected int ataque;
 
     public Personaje(String nombre, int ataque) {
         this.nombre = nombre;
