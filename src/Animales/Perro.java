@@ -11,6 +11,6 @@ public class Perro extends Animal {
 
     @Override
     public String hacerSonido() {
-        return getNombre() + " de raza " + raza + " hace GUAU!!";
+        return nombre + " de raza " + raza + " hace GUAU!!";
     }
 }

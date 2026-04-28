@@ -11,6 +11,6 @@ public class Gato extends Animal {
 
     @Override
     public String hacerSonido() {
-        return getNombre() + " de color " + color + " hace MIAU!!";
+        return nombre + " de color " + color + " hace MIAU!!";
     }
 }
